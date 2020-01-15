@@ -74,10 +74,32 @@ li a:hover {
     text-decoration: underline;
 }
 
+
+
 .active-email {
     color: teal;
     text-decoration: underline;
     font-style: italic;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 10px 30px;
+    padding: 25px;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    list-style-type: none;
 }
 
 /******* header & nav end *******/
@@ -103,10 +125,11 @@ li a:hover {
 }
  
 .bio  p {
-    font-size: 42px;
+    font-size: 38px;
     text-align: left; 
     padding-top: 20px; 
-    margin-left: 40px; 
+    margin-left: 45px; 
+    margin-right: 45px;
 }
 
 .bio img {
@@ -118,8 +141,15 @@ li a:hover {
 /********* about end *********/
 
 /********* projects start *********/
+
+
 main {
     text-align: center;
+}
+
+main p {
+    text-align: center;
+    padding: 20px;
 }
 
 h2 {
