@@ -195,9 +195,7 @@ main p {
 }
 /********* projects end *********/
 
-/*@media screen and (max-width: 768px) {
 
-}*/
 
 @media screen and (max-width: 500px) {
 .nav-links {
@@ -447,3 +445,7 @@ li {
         display: none;
     }
 }
+
+/*@media screen and (max-width: 768px) {
+
+}*/
