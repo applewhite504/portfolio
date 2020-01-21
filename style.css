@@ -29,7 +29,7 @@ h3 {
 
 /******* header & nav start *******/
 .intro {
-    background-image: url("images/doors-1767559_1280.jpg");
+    background-image: url("images/doors-1767559_1280.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;  
     height: 100%;
@@ -440,12 +440,68 @@ li {
    
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .menu-wrap {
+        display: none;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding: 2px;
+        margin-right: 0px;
+    }
+    
+    nav ul {
+        margin-right: 0px;
+    }
+    
+    li {
+        padding: 8px;
+        font-size: 20px;  
+    }
+
+    .intro h1 {
+        font-size: 90px;
+        text-align: left;
+        position: absolute; 
+        bottom: 0; 
+        padding-left: 65px;
+        padding-bottom: 50px;
+        width: 100%; 
+    }
+
+    h3 {
+        
+        font-size: 45px;
+        margin-left: 120px;
+    }
+
+    ul {
+        margin-top: -250px;
+        padding: 2px;
+        margin-right: 0px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+
+    .title h1 {
+        float: left;
+    }
+
+    .bio {
+        display: none;
+    }
+    
+}
+
 @media screen and (min-width: 900px) {
     .menu-wrap {
         display: none;
     }
 }
-
-/*@media screen and (max-width: 768px) {
-
-}*/
